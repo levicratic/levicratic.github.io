@@ -21,6 +21,10 @@ body {
 
     font-family: AnonymousPro;
     color: #DCD8D7;
+
+    font-size: 22px;
+    font-size: 1.8vw;
+
 }
 
 div.links {
@@ -28,8 +32,26 @@ div.links {
     margin-top: 10%;
 }
 
+div.link {
+    background-color: #202020;
+    border-radius: 16%;
+    width: 25vw;
+    height: 20vw;
+    margin: 5vw;
+    padding: 3vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+div.link:hover {
+    background-color:#272727;
+}
+
 b {
-    font-size: xx-large;
+    font-size: 64px;
+    font-size: 5vw;
 }
 
 a {
