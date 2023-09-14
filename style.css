@@ -27,26 +27,82 @@ body {
 
 }
 
+div.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 div.links {
     text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10%;
 }
 
-div.link {
-    background-color: #202020;
-    border-radius: 16%;
-    width: 25vw;
-    height: 20vw;
-    margin: 5vw;
-    padding: 3vw;
+table {
+    border-spacing: 5vw 2vw;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 10px;
+
+    /* background:
+    linear-gradient(purple 0%, blue 90%),
+    linear-gradient(to right, green 0%, red 90%);*/
+    background-blend-mode: screen, difference, lighten;
+}
+
+button {
+    background-color: #00000000;
+    background-image: linear-gradient(#20202081, #33333381);
+
+    /* backdrop-filter: opacity(100%); */
+    /* background-image: linear-gradient(to right, #ffffff20, #ffffff20); */
+    /* background-blend-mode: multiply; */
+    border-radius: 2vw;
+    border-width: 0px;
+    padding: 12%;
+    height: 14vw;
+    width: 20vw;
+
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    box-shadow: 4px 8px #272727FA;
+
+    mix-blend-mode: exclusion;
+    backdrop-filter: none;
+
 }
 
-div.link:hover {
-    background-color:#272727;
+button:hover {
+    background-image: linear-gradient(to right, #33333381, #20202081);
+    backdrop-filter: none;
+    /* mix-blend-mode: luminosity; */
+}
+
+button.bloat:hover {
+    padding: 6%;
+
+}
+
+button:hover img {
+    mix-blend-mode: screen, darken;
+    width: 110%;
+}
+
+button img {
+    filter: contrast(200%);
+}
+
+img {
+    width: 100%;
 }
 
 b {
