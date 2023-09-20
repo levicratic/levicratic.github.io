@@ -18,7 +18,7 @@ body {
     background-image: url("imgs/bg-gray.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 100%;
+    background-size: cover;
     background-color: #141414;
 
     font-family: AnonymousPro;
