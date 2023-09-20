@@ -16,6 +16,7 @@
 
 body {
     background-image: url("imgs/bg-gray.png");
+    background-repeat: no-repeat;
     background-position: right;
     background-color: #141414;
 
@@ -24,7 +25,6 @@ body {
 
     font-size: 22px;
     font-size: 1.8vw;
-
 }
 
 div.flex {
